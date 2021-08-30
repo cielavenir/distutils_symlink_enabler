@@ -20,6 +20,8 @@ cf https://pybind11.readthedocs.io/en/stable/compiling.html#copy-manually
 
 ```
 import sys
+from os.path import abspath
+from os.path import dirname
 sys.path.append(abspath(dirname(__file__)))
 
 from setuptools import setup
